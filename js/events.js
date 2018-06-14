@@ -11,7 +11,9 @@ function frameIt() {
   });
 }
 function pressIt() {
-  S()
+  $("form").on("keydown", function() {
+    
+  });
 }
 $(document).ready(function(){
 
