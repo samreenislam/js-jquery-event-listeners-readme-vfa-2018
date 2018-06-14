@@ -7,7 +7,7 @@ function getIt() {
   });
 }
 function frameIt() {
-  $('p').on("load", function() {
+  $('img').on("load", function() {
     alert("loaded!");
   });
 }
