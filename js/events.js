@@ -1,6 +1,7 @@
 //define functions here
 function getIt() {
   $('p').on("click", function() {
+    $('p').addClass("tasty");
     alert("Hey!");
     return;
   });
