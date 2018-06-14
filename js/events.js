@@ -6,9 +6,8 @@ function getIt() {
   });
 }
 function frameIt() {
-  $('img').on("load", function() {
+  $('p').on("load", function() {
     alert("loaded!");
-    
   });
 }
 function pressIt() {
